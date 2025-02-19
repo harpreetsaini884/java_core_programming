@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class TriangularParkRun {
     public static int calculateRounds(double a, double b, double c) {
         double perimeter = a + b + c;
-        return (int) Math.ceil(5000 / perimeter); // 5 km = 5000 meters
+        return (int) Math.ceil(5000 / perimeter); 
     }
 
     public static void main(String[] args) {
